@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>calculadora basica</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>CALCULADORA</h1>
-        <label for="num1">número 1:</label>
-        <input type="number"id="num1"placeholder="escribe un número"><br>
-        <label for="num2">número 2:</label>
-        <input type="number"id="num2"placeholder="escribe otro número"><br>
-
-        <div class="button-container">
-            <button class="suma"onclick="realizaroperacion('suma')">Suma</button>
-            <button class="resta"onclick="realizaroperacion('resta')">Resta</button>
-            <button class="multiplicacion"onclick="realizaroperacion('multiplicacion')">Multiplicacion</button>
-            <button class="division"onclick="realizaroperacion('division')">Division</button>
-        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio web - Mascotas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tienda de Mascotas</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="galeria.html">Galería</a>
+                <a href="contacto.html">contacto</a>
+            </nav>
         </div>
-        <div id="result"></div>
-    </body>
-    <script src="script.js"></script>
-    </html>
+    </header>
+
+    <main>
+        <SEction class="hero">
+            <div class="overlay">
+                <h2>BIENVENIDOS A NUESTRA TIENDA DE MASCOTAS</h2>
+                <P>ENCUENTRA A TU COMPAÑERO IDEAL. ADOPTA, AMA, CUIDA.</P>
+                <a href="galeria.html" class="button">VER MASCOTAS</a>
+            </div>
+        </section>
+
+
+        <section class="features">
+            <div class="feature">
+                <h3>ADOPCIÓN RESPONSABLE</h3>
+                <P>ENCUENTRA UN HOGAR AMOROSO PARA MASCOTAS EN ESPERA DE CARIÑO</P>
+            </div>
+            <div class="feature">
+                <h3>CONSEJOS DE CIUDADANOS</h3>
+                <P>APRENDE A CUIDAR A TU NUEVA MASCOTA CON TIPS PRÁCTICOS</P>
+            </div>
+            <div class="feature">
+                <h3>PRODUCTOS</h3>
+                <P>EXPLORA PRODUCTOS DISEÑADOS PARA LA COMODIDAD DE TUS MASCOTAS.</P>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Mascotas. Todos los derechos son reservados.</p>
+    </footer>
+</body>
+</html>
